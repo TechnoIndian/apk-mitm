@@ -15,7 +15,7 @@
 
 ## Installation Commands
 ```python
-curl -s https://raw.githubusercontent.com/TechnoIndian/Blutter-in-Termux/main/Blutter-in-Termux.sh | bash
+curl -s https://raw.githubusercontent.com/TechnoIndian/apk-mitm/main/APK-MITM-in-Termux.sh | bash
 ```
 
 ## Run B(l)utter
