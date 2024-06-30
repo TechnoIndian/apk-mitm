@@ -33,25 +33,25 @@ apk-mitm /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
 
 ## Custom ApkTool
 ```Python
-apk-mitm --apktool apktool_2.9.3.jar Parallel.apk --tmp-dir AppName
+apk-mitm --apktool apktool_2.9.3.jar /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
 ```
 
 ## <path-to-pem/der> Add specific certificate to network security config
 
 ```Python
-apk-mitm --certificate /sdcard/Techno_India.pem NAME.apk --tmp-dir AppName
+apk-mitm --certificate /sdcard/Your_CERT.pem /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
 ```
 
 ## <api-key> Add custom Google Maps API key to be replaced while patching apk
  
 ```Python
-apk-mitm --maps-api-key API.COM NAME.apk --tmp-dir AppName
+apk-mitm --maps-api-key API.COM /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
 ```
 
 ## Make the patched app debuggable
 
 ```Python
-apk-mitm --debuggable /sdcard/Techno_India.pem NAME.apk --tmp-dir AppName
+apk-mitm --debuggable /sdcard/Your_CERT.pem /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
 ```
 
 
