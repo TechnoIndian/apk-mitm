@@ -2,7 +2,6 @@ clear
 termux-setup-storage
 pkg install openjdk-17 nodejs -y
 npm install -g apk-mitm
-cd /sdcard && mkdir MITM && cd MITM
 clear
 termux-open-url https://t.me/rktechnoindians
 
