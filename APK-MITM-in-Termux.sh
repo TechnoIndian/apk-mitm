@@ -2,6 +2,7 @@ clear
 termux-setup-storage
 pkg install openjdk-17 nodejs -y
 npm install -g apk-mitm
+cd $HOME
 curl -L -o $PREFIX/lib/node_modules/apk-mitm/dist/tools/apktool.js https://github.com/TechnoIndian/apk-mitm/releases/download/apktool.js/apktool.js
 clear
 termux-open-url https://t.me/rktechnoindians
