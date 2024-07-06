@@ -4,6 +4,7 @@ pkg install openjdk-17 nodejs -y
 npm install -g apk-mitm
 cd $HOME
 curl -L -o $PREFIX/lib/node_modules/apk-mitm/dist/tools/apktool.js https://github.com/TechnoIndian/apk-mitm/releases/download/apktool.js/apktool.js
+curl -s https://raw.githubusercontent.com/TechnoIndian/apk-mitm/main/termux-zipalign.sh | bash
 clear
 termux-open-url https://t.me/rktechnoindians
 
